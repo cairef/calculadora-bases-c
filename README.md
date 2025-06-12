@@ -18,6 +18,91 @@ Um conversor interativo de bases numéricas desenvolvido em linguagem C, capaz d
 
 ---
 
+## 📷 Demonstrações - A
+
+
+### demo1 - jpg
+  ![](demo/demo1.jpg)
+
+### demo2 - jpg
+  ![](demo/demo2.jpg)
+
+### demo2 - gif
+  ![](demo/demo2.gif)
+
+### demo3 - jpg
+  ![](demo/demo3.jpg)
+
+### demo3 - gif
+  ![](demo/demo3.gif)
+
+### demo4 - jpg
+  ![](demo/demo4.jpg)
+
+### demo4 - gif
+  ![](demo/demo4.gif)
+
+---
+
+## 📷 Demonstrações - B-1
+
+### jpg
+
+#### demo1
+![](demo/demo1.jpg)
+
+#### demo2
+![](demo/demo2.jpg)
+
+#### demo3
+![](demo/demo3.jpg)
+
+#### demo4
+![](demo/demo4.jpg)
+
+### gif
+
+#### demo2
+![](demo/demo2.gif)
+
+#### demo3
+![](demo/demo3.gif)
+
+#### demo4
+![](demo/demo4.gif)
+
+---
+
+## 📷 Demonstrações - B-2
+
+### jpg
+
+- demo1
+![](demo/demo1.jpg)
+
+- demo2
+![](demo/demo2.jpg)
+
+- demo3
+![](demo/demo3.jpg)
+
+- demo4
+![](demo/demo4.jpg)
+
+### gif
+
+- demo2
+![](demo/demo2.gif)
+
+- demo3
+![](demo/demo3.gif)
+
+- demo4
+![](demo/demo4.gif)
+
+
+---
+
 ## 🚀 Como Usar
 
 ### 1. Compilação
@@ -141,4 +226,3 @@ Durante o desenvolvimento, a equipe praticou:
 
 Este projeto é de uso acadêmico e livre para fins educacionais.
 
----
