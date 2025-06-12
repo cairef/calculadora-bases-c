@@ -20,6 +20,16 @@
     <img src="https://img.shields.io/github/v/release/cairef/calculadora-bases-c" alt="GitHub release"/>
   </a>
 </object>
+<object>
+  <a href="https://github.com/cairef/calculadora-bases-c">
+    <img src="https://img.shields.io/github/stars/cairef/calculadora-bases-c" alt="GitHub release"/>
+  </a>
+</object>
+<object>
+  <a href="https://github.com/cairef/calculadora-bases-c">
+    <img src="https://img.shields.io/github/forks/cairef/calculadora-bases-c" alt="GitHub release"/>
+  </a>
+</object>
 
 <br/>
 
@@ -32,15 +42,16 @@ Um conversor de bases numéricas desenvolvido em linguagem C, capaz de converter
   - [📷 Demonstrações](#-demonstrações)
   - [🧪 Requisitos](#-requisitos)
   - [🚀 Como Usar](#-como-usar)
-    - [1. A. Download](#1-a-download)
-    - [1. B. Compilação](#1-b-compilação)
+    - [1. Preparação](#1-preparação)
     - [2. Execução](#2-execução)
+  - [🛠️ Build](#️-build)
   - [📋 Exemplo de Uso](#-exemplo-de-uso)
     - [REPL (Read Evaluate Print Loop)](#repl-read-evaluate-print-loop)
     - [CLI (Command-Line Interface)](#cli-command-line-interface)
   - [🛠️ Estrutura do Projeto](#️-estrutura-do-projeto)
   - [🧠 Aprendizados](#-aprendizados)
-  - [👥 Equipe (ordem alfabética)](#-equipe-ordem-alfabética)
+  - [👥 Grupo (ordem alfabética)](#-grupo-ordem-alfabética)
+  - [🧩 Misc](#-misc)
   - [📄 Licença](#-licença)
 
 ## ✨ Funcionalidades
@@ -68,25 +79,10 @@ Um conversor de bases numéricas desenvolvido em linguagem C, capaz de converter
 
 ## 🚀 Como Usar
 
-### 1. A. Download
+### 1. Preparação
 
 - Você pode baixar os binários em https://github.com/cairef/calculadora-bases-c/releases/tag/release
-
-### 1. B. Compilação
-
-Certifique-se de ter um compilador C instalado (GCC, MinGW, Clang, etc).
-
-No **Linux/macOS**:
-
-```bash
-gcc conversor.c -o conversor
-```
-
-No **Windows** (usando MinGW):
-
-```bash
-gcc conversor.c -o conversor.exe
-```
+- Ou siga as instruções em [build](#Build) para compilar com o código-fonte.
 
 ### 2. Execução
 
@@ -105,6 +101,36 @@ conversor.exe
 conversor.exe --help
 conversor.exe <baseDeEntrada> <baseDeSaida> <entrada>
 ```
+
+## 🛠️ Build
+
+1. Certifique-se de ter um compilador C instalado (GCC, MinGW, Clang, etc).
+
+2. Clone o repositório
+
+```bash
+git clone https://github.com/cairef/calculadora-bases-c.git
+```
+
+3. Compile usando o GCC
+
+- No **Linux/macOS**:
+
+```bash
+gcc conversor.c -o conversor
+```
+
+- No **Windows** (usando MinGW):
+
+```bash
+gcc conversor.c -o conversor.exe
+```
+
+4. (Opcional) crie demonstrações
+
+- usando linux, instale o asciinema, termsvg e o agg
+- clone o repositório em https://github.com/cairef/term-nema.git
+- crie os arquivos .cast usando record.sh [working_directory] e converta usando convert.sh
 
 ## 📋 Exemplo de Uso
 
@@ -163,13 +189,18 @@ Durante o desenvolvimento, a equipe praticou:
 - Boas práticas de programação estruturada em C
 - Detecção e uso de cores ANSI no terminal
 
-## 👥 Equipe (ordem alfabética)
+## 👥 Grupo (ordem alfabética)
 
 - Adão
 - Cairé (https://github.com/cairef)
 - Gustavo Sanches
 - Jane
 - Lucas (https://github.com/Ramos-jft)
+
+## 🧩 Misc
+
+![](https://imgs.xkcd.com/comics/1_to_10.png)
+<br>[https://xkcd.com/953/](https://xkcd.com/953/)
 
 ## 📄 Licença
 
