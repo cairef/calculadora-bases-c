@@ -6,8 +6,6 @@ Um conversor interativo de bases numéricas desenvolvido em linguagem C, capaz d
  - **decimal**: sistema padrão humano
  - **hexadecimal**: representação de 2 bytes, ou a maior base númerica múltipla de 8 (octal), menor do que 36 (10 + 26, ou o sistema decimal + o sistema alfabético insensível a maiúsulos e minúsculos)
 
----
-
 ## ✨ Funcionalidades
 
 - Conversão entre quaisquer bases: Binário, Octal, Decimal e Hexadecimal
@@ -16,94 +14,16 @@ Um conversor interativo de bases numéricas desenvolvido em linguagem C, capaz d
 - Resultado destacado em verde (se o terminal suportar ANSI colors)
 - Suporte a UTF-8 para acentuação e caracteres especiais nas mensagens. (locale = pt_br.UTF-8)
 
----
+## 📷 Demonstrações
 
-## 📷 Demonstrações - A
-
-
-### demo1 - jpg
-  ![](demo/demo1.jpg)
-
-### demo2 - jpg
-  ![](demo/demo2.jpg)
-
-### demo2 - gif
-  ![](demo/demo2.gif)
-
-### demo3 - jpg
-  ![](demo/demo3.jpg)
-
-### demo3 - gif
-  ![](demo/demo3.gif)
-
-### demo4 - jpg
-  ![](demo/demo4.jpg)
-
-### demo4 - gif
-  ![](demo/demo4.gif)
-
----
-
-## 📷 Demonstrações - B-1
-
-### jpg
-
-#### demo1
-![](demo/demo1.jpg)
-
-#### demo2
-![](demo/demo2.jpg)
-
-#### demo3
-![](demo/demo3.jpg)
-
-#### demo4
-![](demo/demo4.jpg)
-
-### gif
-
-#### demo2
-![](demo/demo2.gif)
-
-#### demo3
-![](demo/demo3.gif)
-
-#### demo4
-![](demo/demo4.gif)
-
----
-
-## 📷 Demonstrações - B-2
-
-### jpg
-
-- demo1
-![](demo/demo1.jpg)
-
-- demo2
-![](demo/demo2.jpg)
-
-- demo3
-![](demo/demo3.jpg)
-
-- demo4
-![](demo/demo4.jpg)
-
-### gif
-
-- demo2
-![](demo/demo2.gif)
-
-- demo3
-![](demo/demo3.gif)
-
-- demo4
-![](demo/demo4.gif)
-
-
----
+### demo &ensp; <sub>|&ensp;[ demo4 em imagem ](demo/demo4.jpg)&ensp;|&ensp;[demo4 no terminal virtual](demo/demo4.gif)&ensp;|&ensp;[mais demos](demo/)&ensp;|</sub>
+  ![](demo/demo-b2.gif)
 
 ## 🚀 Como Usar
+
+### Download
+
+- Você pode baixar os binários em https://github.com/cairef/calculadora-bases-c/releases/tag/release
 
 ### 1. Compilação
 
@@ -138,8 +58,6 @@ conversor.exe
 conversor.exe --help
 conversor.exe <baseDeEntrada> <baseDeSaida> <entrada>
 ```
-
----
 
 ## 📋 Exemplo de Uso
 
@@ -179,15 +97,11 @@ Resultado: 1101000111111
 ./conversor d b 6
 ```
 
----
-
 ## 🧪 Requisitos
 
 - Compilador C (GCC, MinGW, Clang, etc.)
 - Terminal com suporte a UTF-8
 - (Opcional) Suporte a cores ANSI para destaque do resultado
-
----
 
 ## 🛠️ Estrutura do Projeto
 
@@ -196,8 +110,6 @@ Resultado: 1101000111111
 - `conversor.exe` — binário para Windows (Portable x86-64)
 - `conversor.c` — Código-fonte principal do conversor
 - `README.md` — Este arquivo de documentação
-
----
 
 ## 🧠 Aprendizados
 
@@ -210,17 +122,13 @@ Durante o desenvolvimento, a equipe praticou:
 - Boas práticas de programação estruturada em C
 - Detecção e uso de cores ANSI no terminal
 
----
-
 ## 👥 Equipe (ordem alfabética)
 
 - Adão
 - Cairé (https://github.com/cairef)
 - Gustavo Sanches
 - Jane
-- Lucas
-
----
+- Lucas (https://github.com/Ramos-jft)
 
 ## 📄 Licença
 
