@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white) ![](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black) &ensp; ![](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white&link=https%3A%2F%2Fgithub.com%2Fcairef%2Fcalculadora-bases-c) &ensp; ![](https://img.shields.io/github/v/release/cairef/calculadora-bases-c?link=https%3A%2F%2Fgithub.com%2Fcairef%2Fcalculadora-bases-c%2Freleases%2Flatest)
+
 # 🔢 Conversor de Números em C
 
 Um conversor de bases numéricas desenvolvido em linguagem C, capaz de converter números entre base
