@@ -1,14 +1,30 @@
 # 🔢 Conversor de Números em C
 
-Um conversor interativo de bases numéricas desenvolvido em linguagem C, capaz de converter números entre :
- - **binário**: representação do sistema númerico de máquinas
- - **octal**: representação de 1 byte
- - **decimal**: sistema padrão humano
- - **hexadecimal**: representação de 2 bytes, ou a maior base númerica múltipla de 8 (octal), menor do que 36 (10 + 26, ou o sistema decimal + o sistema alfabético insensível a maiúsulos e minúsculos)
+Um conversor de bases numéricas desenvolvido em linguagem C, capaz de converter números entre base
+
+- [🔢 Conversor de Números em C](#-conversor-de-números-em-c)
+  - [✨ Funcionalidades](#-funcionalidades)
+  - [📷 Demonstrações](#-demonstrações)
+  - [🧪 Requisitos](#-requisitos)
+  - [🚀 Como Usar](#-como-usar)
+    - [1. A. Download](#1-a-download)
+    - [1. B. Compilação](#1-b-compilação)
+    - [2. Execução](#2-execução)
+  - [📋 Exemplo de Uso](#-exemplo-de-uso)
+    - [REPL (Read Evaluate Print Loop)](#repl-read-evaluate-print-loop)
+    - [CLI (Command-Line Interface)](#cli-command-line-interface)
+  - [🛠️ Estrutura do Projeto](#️-estrutura-do-projeto)
+  - [🧠 Aprendizados](#-aprendizados)
+  - [👥 Equipe (ordem alfabética)](#-equipe-ordem-alfabética)
+  - [📄 Licença](#-licença)
 
 ## ✨ Funcionalidades
 
-- Conversão entre quaisquer bases: Binário, Octal, Decimal e Hexadecimal
+- Conversão entre bases:
+  - **binário**: representação do sistema númerico de máquinas
+  - **octal**: representação de 1 byte
+  - **decimal**: sistema padrão humano
+  - **hexadecimal**: representação de 2 bytes, ou a maior base númerica múltipla de 8 (octal), menor do que 36 (10 + 26, ou o sistema decimal + o sistema alfabético insensível a maiúsulos e minúsculos)
 - Validação automática da entrada conforme a base escolhida
 - Interface interativa por menus no terminal (REPL) e comandos por argumentos (CLI)
 - Resultado destacado em verde (se o terminal suportar ANSI colors)
@@ -19,13 +35,19 @@ Um conversor interativo de bases numéricas desenvolvido em linguagem C, capaz d
 ### demo &ensp; <sub>|&ensp;[ demo4 em imagem ](demo/demo4.jpg)&ensp;|&ensp;[demo4 no terminal virtual](demo/demo4.gif)&ensp;|&ensp;[mais demos](demo/)&ensp;|</sub>
   ![](demo/demo-b2.gif)
 
+## 🧪 Requisitos
+
+- Terminal com suporte a UTF-8
+- (Opcional) Compilador C (GCC, MinGW, Clang, etc.)
+- (Opcional) Suporte a cores ANSI para destaque do resultado
+
 ## 🚀 Como Usar
 
-### Download
+### 1. A. Download
 
 - Você pode baixar os binários em https://github.com/cairef/calculadora-bases-c/releases/tag/release
 
-### 1. Compilação
+### 1. B. Compilação
 
 Certifique-se de ter um compilador C instalado (GCC, MinGW, Clang, etc).
 
@@ -96,12 +118,6 @@ Resultado: 1101000111111
 ./conversor b d 101
 ./conversor d b 6
 ```
-
-## 🧪 Requisitos
-
-- Compilador C (GCC, MinGW, Clang, etc.)
-- Terminal com suporte a UTF-8
-- (Opcional) Suporte a cores ANSI para destaque do resultado
 
 ## 🛠️ Estrutura do Projeto
 
